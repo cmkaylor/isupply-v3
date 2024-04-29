@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
+import { ReadOutlined, HomeOutlined, ToolOutlined, ShopOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
 const items = [
   {
     label: 'Home',
     key: 'mail',
-    icon: <MailOutlined />,
+    icon: <HomeOutlined />,
   },
   {
     label: 'About',
     key: 'app',
-    icon: <AppstoreOutlined />,
+    icon: <ReadOutlined />,
   },
   {
     label: 'Products',
     key: 'SubMenu',
-    icon: <SettingOutlined />,
+    icon: <ShopOutlined />,
     children: [
       {
         label: (
@@ -26,7 +26,11 @@ const items = [
         key: 'setting:1',
       },
       {
-        label: 'Quarterly Catalog',
+        label: (
+          <a href="https://drive.google.com/file/d/1vcZW9ETMyvcJP6CjKjVGRhEIkplOhpQx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          Quarterly Catalog
+          </a>
+        ),
         key: 'setting:2',
       },
     ],
@@ -34,7 +38,7 @@ const items = [
   {
     label: 'Services',
     key: 'app',
-    icon: <AppstoreOutlined />,
+    icon: <ToolOutlined />,
   },
 ];
 const Navigation = () => {
