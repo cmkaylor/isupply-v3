@@ -18,7 +18,11 @@ const items = [
     icon: <SettingOutlined />,
     children: [
       {
-        label: 'GARD Specialist Co INC',
+        label: (
+          <a href="https://www.gardspecialists.com/" target="_blank" rel="noopener noreferrer">
+          GARD Specialists Co Inc.
+          </a>
+        ),
         key: 'setting:1',
       },
       {
@@ -28,12 +32,9 @@ const items = [
     ],
   },
   {
-    key: 'alipay',
-    label: (
-      <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
-        Navigation Four - Link
-      </a>
-    ),
+    label: 'Services',
+    key: 'app',
+    icon: <AppstoreOutlined />,
   },
 ];
 const Navigation = () => {
