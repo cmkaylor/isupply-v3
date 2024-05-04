@@ -3,7 +3,7 @@ import Screws from '../content/screws.jpg'
 
 const Home = () => {
   return (
-    <Flex justify="center" align="top" flex="auto" style={{backgroundImage:`url(${Screws})`, backgroundPosition: 'center', backgroundSize: 'cover', height: '100vh'}}>
+    <Flex justify="center" align="top" flex="auto" style={{backgroundImage:`url(${Screws})`, backgroundPosition: 'center', backgroundSize: 'cover', height: '70vh'}}>
         <div style={{backgroundColor:'#FFFFFF', width: '80vh', height: '45vh', margin: '20px', borderRadius: '25px', border: '4px solid #34495E', padding:'10px'}}>
             <Flex justify="center" align="center" vertical={true}>
                 <h3>Welcome</h3>

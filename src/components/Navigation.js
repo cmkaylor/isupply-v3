@@ -6,17 +6,17 @@ import { Link } from 'react-router-dom';
 const items = [
   {
     label: (<Link to="/Home">Home</Link>),
-    key: 'mail',
+    key: 'home',
     icon: <HomeOutlined />,
   },
   {
     label: (<Link to="/About">About</Link>),
-    key: 'app',
+    key: 'about',
     icon: <ReadOutlined />,
   },
   {
     label: 'Products',
-    key: 'SubMenu',
+    key: 'products',
     icon: <ShopOutlined />,
     children: [
       {
@@ -25,21 +25,21 @@ const items = [
           GARD Specialists Co Inc.
           </a>
         ),
-        key: 'setting:1',
+        key: 'products1',
       },
       {
         label: (
-          <a href="https://drive.google.com/file/d/1vcZW9ETMyvcJP6CjKjVGRhEIkplOhpQx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/drive/folders/1Zgmyt8rQFzY_43ksWanPJxC2U6ad6iUg?usp=sharing" target="_blank" rel="noopener noreferrer">
           Quarterly Catalog
           </a>
         ),
-        key: 'setting:2',
+        key: 'products2',
       },
     ],
   },
   {
     label: 'Services',
-    key: 'app',
+    key: 'services',
     icon: <ToolOutlined />,
   },
 ];
