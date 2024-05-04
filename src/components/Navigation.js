@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import { ReadOutlined, HomeOutlined, ToolOutlined, ShopOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
+import { Link } from 'react-router-dom';
+
 const items = [
   {
-    label: 'Home',
+    label: (<Link to="/Home">Home</Link>),
     key: 'mail',
     icon: <HomeOutlined />,
   },
   {
-    label: 'About',
+    label: (<Link to="/About">About</Link>),
     key: 'app',
     icon: <ReadOutlined />,
   },
