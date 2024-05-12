@@ -5,6 +5,18 @@ import City from '../content/city.jpg'
 const AboutCarousel = () => (
   <>
     <Carousel style={{backgroundColor: '#34495E', borderRadius: '10px',padding: '15px', color: '#FFFFFF', textAlign: 'center'}} dotPosition="bottom">
+      <div>
+          <Flex justify='center' align='center' vertical={true}>
+            <h3>What We Do</h3>
+            <img style={{borderRadius: '5px'}} src={City} alt="Kansas City" width='213px' height='120px' />
+            <p>
+            Industrial Supply & Service is a family owned business located in Kansas City, Missouri, 
+            since 2015. We have strong relationships with our manufacturers and distributors to bring 
+            our products to you in the most efficient and cost effective manner possible.
+            </p>
+          </Flex>
+        </div>
+
         <div>
           <Flex justify='center' align='center' vertical={true}>
             <h3>Company History</h3>
