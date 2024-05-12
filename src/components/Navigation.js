@@ -21,6 +21,14 @@ const items = [
     children: [
       {
         label: (
+          <a href="https://drive.google.com/drive/folders/1Zgmyt8rQFzY_43ksWanPJxC2U6ad6iUg?usp=sharing" target="_blank" rel="noopener noreferrer">
+          Quarterly Catalog
+          </a>
+        ),
+        key: 'products2',
+      },
+      {
+        label: (
           <a href="https://www.gardspecialists.com/" target="_blank" rel="noopener noreferrer">
           GARD Specialists Co Inc.
           </a>
@@ -29,11 +37,27 @@ const items = [
       },
       {
         label: (
-          <a href="https://drive.google.com/drive/folders/1Zgmyt8rQFzY_43ksWanPJxC2U6ad6iUg?usp=sharing" target="_blank" rel="noopener noreferrer">
-          Quarterly Catalog
+          <a href="https://www.durhammfg.com/products/" target="_blank" rel="noopener noreferrer">
+          Durham Manufacturing
           </a>
         ),
-        key: 'products2',
+        key: 'products3',
+      },
+      {
+        label: (
+          <a href="https://discoautomotive.com/" target="_blank" rel="noopener noreferrer">
+          Disco Automotive Hardware
+          </a>
+        ),
+        key: 'products4',
+      },
+      {
+        label: (
+          <a href="https://infasconut.com/" target="_blank" rel="noopener noreferrer">
+          Infasco
+          </a>
+        ),
+        key: 'products5',
       },
     ],
   },
