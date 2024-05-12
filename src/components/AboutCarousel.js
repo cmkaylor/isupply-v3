@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel, Flex } from 'antd';
+import { Link } from 'react-router-dom';
 import City from '../content/city.jpg'
 import Products from '../content/products-collage.png'
 import Worker from '../content/worker.jpg'
@@ -24,7 +25,7 @@ const AboutCarousel = () => (
             <img style={{borderRadius: '5px'}} src={Worker} alt="Industrial Services" width='213px' height='120px' />
             <p>
             We want to help anyway we can, so that's why we provide a variety of services. We can do anything from Tool Maintenance & Repair to 
-            Supply Room Design. Please click here to check out what we can do for you!
+            Supply Room Design. Please click <Link to="/Services">here</Link> to check out what we can do for you!
             </p>
           </Flex>
         </div>
