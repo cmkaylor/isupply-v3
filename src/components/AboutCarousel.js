@@ -6,7 +6,7 @@ import Worker from '../content/worker.jpg'
 
 const AboutCarousel = () => (
   <>
-    <Carousel style={{backgroundColor: '#34495E', borderRadius: '10px',padding: '15px', color: '#FFFFFF', textAlign: 'center'}} dotPosition="bottom">
+    <Carousel style={{backgroundColor: '#34495E', borderRadius: '10px',padding: '15px', color: '#FFFFFF', textAlign: 'center', width: '55vh'}} dotPosition="bottom">
         <div>
           <Flex justify='center' align='center' vertical={true} style={{paddingBottom: '10px'}}>
             <h3>Our Products</h3>
