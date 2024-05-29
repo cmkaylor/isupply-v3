@@ -1,6 +1,5 @@
 import React from "react";
 import '../index.css'
-import { Flex } from "antd";
 
 const FooterContent = () => {
 

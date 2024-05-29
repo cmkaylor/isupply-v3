@@ -70,7 +70,6 @@ const items = [
 const Navigation = () => {
   const [current, setCurrent] = useState('mail');
   const onClick = (e) => {
-    console.log('click ', e);
     setCurrent(e.key);
   };
   return <Menu style={{ position: 'relative', display: 'flex', justifyContent: 'center'}} onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />;
