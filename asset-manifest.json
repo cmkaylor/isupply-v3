@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/isupply-v3/static/css/main.f855e6bc.css",
-    "main.js": "/isupply-v3/static/js/main.ea2c2b5f.js",
-    "static/media/products-collage.png": "/isupply-v3/static/media/products-collage.7bd2ee682de3fbe3f619.png",
+    "main.css": "/isupply-v3/static/css/main.2c9c7a29.css",
+    "main.js": "/isupply-v3/static/js/main.4a3172ca.js",
     "static/media/screws.jpg": "/isupply-v3/static/media/screws.f20e9025606245d9aeb3.jpg",
     "static/media/city.jpg": "/isupply-v3/static/media/city.499373899bc379c7f3d1.jpg",
-    "static/media/worker.jpg": "/isupply-v3/static/media/worker.b912da6c97036ec5d88a.jpg",
     "static/media/logo.png": "/isupply-v3/static/media/logo.ed53e0354f6f186bbbf4.png",
+    "static/media/GardLogo.png": "/isupply-v3/static/media/GardLogo.2b6667abafa602cdc4c4.png",
     "index.html": "/isupply-v3/index.html",
-    "main.f855e6bc.css.map": "/isupply-v3/static/css/main.f855e6bc.css.map",
-    "main.ea2c2b5f.js.map": "/isupply-v3/static/js/main.ea2c2b5f.js.map"
+    "main.2c9c7a29.css.map": "/isupply-v3/static/css/main.2c9c7a29.css.map",
+    "main.4a3172ca.js.map": "/isupply-v3/static/js/main.4a3172ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.ea2c2b5f.js"
+    "static/css/main.2c9c7a29.css",
+    "static/js/main.4a3172ca.js"
   ]
 }
