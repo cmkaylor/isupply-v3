@@ -19,7 +19,7 @@ const Home = () => {
         <div style={{backgroundColor:'#FFFFFF', width: '80vh', height: '35vh', margin: '20px', borderRadius: '25px', border: '4px solid #34495E', padding:'10px'}}>
             <Flex justify="center" align="center" vertical={true}>
                 <h2 style={{color: '#34495E', fontWeight: 'bold', marginBottom: '0'}}>Welcome</h2>
-                <p align="center">Please click below and let us help you succeed in your supplying needs!</p>
+                <p align="center">Please click below and let us help you succeed in your industrial MRO supplying needs!</p>
                 <Flex justify="space-evenly" align="center">
                   <Button onClick={showContact} style={{marginTop: '20px', backgroundColor: '#34495E', color: '#FFFFFF', width: '150px', height: '75px'}}>Contact Us</Button>
                   <ContactModal open={isContactOpen} handleCancel={handleCancelContact}/>
