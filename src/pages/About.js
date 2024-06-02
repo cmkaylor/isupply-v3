@@ -13,17 +13,17 @@ const imagesForShow = [
 
 const About = () => {
   return (
-    <div style={{position: 'relative', height: '180vh', textAlign: 'center'}}>
+    <Flex justify="center" align="center" vertical ={true} style={{height: '180vh', textAlign: 'center'}}>
       <h2>About Us</h2>
-      <Flex justify="top" align="center" flex="auto" vertical={true}>
-        <img src={City} alt="Kansas City Skyline"/>
-        <p style={{width: '600px'}}>
+      <Flex justify="top" align="center" flex="auto" vertical={true} style={{maxWidth: '600px', maxHeight: '300px'}}>
+        <img style={{height: '200px', width: '100%'}} src={City} alt="Kansas City Skyline"/>
+        <p>
           Located in Kansas City, Missouri since 2015, we offer a comprehensive range of top-quality fasteners, cutting tools,
           shop supplies, PPE, and more. We serve many industries including; construction, automotive repair, fleet management, 
           energy production, municipal services, and more.
         </p>
       </Flex>
-      <div style={{display: 'grid', gridTemplateColumns: 'repeat( auto-fit, minmax(250px, 1fr)', justifyContent: 'center', alignItems: 'center', backgroundColor: '#34495E', color: '#FFFFFF', padding: '20px', gap: '15px', marginTop: '10px', marginBottom: '10px'}}>
+      <div style={{display: 'grid', gridTemplateColumns: 'repeat( auto-fit, minmax(250px, 1fr)', justifyContent: 'center', alignItems: 'center', backgroundColor: '#34495E', color: '#FFFFFF', padding: '20px', gap: '15px', marginTop: '4c5px'}}>
         <Flex justify="top" align="center" flex="auto" vertical={true}>
           <h2>What We Do</h2>
           <p>
@@ -71,7 +71,7 @@ const About = () => {
           </div>
         </Carousel>
       </div>
-      <Flex justify="center" align="center" flex="auto" vertical={true}>
+      <Flex justify="center" align="center" flex="auto" vertical={true} marginTop='0px'>
         <h2>GARD Specialists Company</h2>
         <Divider style={{backgroundColor: 'black', margin: '0px'}}/>
         <p style={{width: '600px'}}>
@@ -79,7 +79,7 @@ const About = () => {
         </p>
         <img src={GardLogo} alt="GARD Specialists Company"/>
       </Flex>
-    </div>
+    </Flex>
   )
 };
 export default About;
