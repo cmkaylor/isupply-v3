@@ -8,7 +8,7 @@ const Services = () => {
 
     return (
         <>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, 260px)', justifyContent: 'center'}}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, 260px)', justifyContent: 'center', height: '70vh'}}>
             <WrapperCard 
             imageComp={GrServices} 
             title={'MRO Supply'}
