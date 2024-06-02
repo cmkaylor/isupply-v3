@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/isupply-v3/static/css/main.2c9c7a29.css",
-    "main.js": "/isupply-v3/static/js/main.4a3172ca.js",
+    "main.css": "/isupply-v3/static/css/main.34ed5df0.css",
+    "main.js": "/isupply-v3/static/js/main.29765e24.js",
     "static/media/screws.jpg": "/isupply-v3/static/media/screws.f20e9025606245d9aeb3.jpg",
     "static/media/city.jpg": "/isupply-v3/static/media/city.499373899bc379c7f3d1.jpg",
     "static/media/logo.png": "/isupply-v3/static/media/logo.ed53e0354f6f186bbbf4.png",
     "static/media/GardLogo.png": "/isupply-v3/static/media/GardLogo.2b6667abafa602cdc4c4.png",
     "index.html": "/isupply-v3/index.html",
-    "main.2c9c7a29.css.map": "/isupply-v3/static/css/main.2c9c7a29.css.map",
-    "main.4a3172ca.js.map": "/isupply-v3/static/js/main.4a3172ca.js.map"
+    "main.34ed5df0.css.map": "/isupply-v3/static/css/main.34ed5df0.css.map",
+    "main.29765e24.js.map": "/isupply-v3/static/js/main.29765e24.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c9c7a29.css",
-    "static/js/main.4a3172ca.js"
+    "static/css/main.34ed5df0.css",
+    "static/js/main.29765e24.js"
   ]
 }
