@@ -15,7 +15,7 @@ const About = () => {
   return (
     <Flex justify="center" align="center" vertical ={true} style={{height: '180vh', textAlign: 'center'}}>
       <h2>About Us</h2>
-      <Flex justify="top" align="center" flex="auto" vertical={true} style={{maxWidth: '600px', maxHeight: '300px'}}>
+      <Flex justify="center" align="center" flex="auto" vertical={true} style={{maxWidth: '600px', height: '200px'}}>
         <img style={{height: '200px', width: '100%'}} src={City} alt="Kansas City Skyline"/>
         <p>
           Located in Kansas City, Missouri since 2015, we offer a comprehensive range of top-quality fasteners, cutting tools,
@@ -23,7 +23,7 @@ const About = () => {
           energy production, municipal services, and more.
         </p>
       </Flex>
-      <div style={{display: 'grid', gridTemplateColumns: 'repeat( auto-fit, minmax(250px, 1fr)', justifyContent: 'center', alignItems: 'center', backgroundColor: '#34495E', color: '#FFFFFF', padding: '20px', gap: '15px', marginTop: '4c5px'}}>
+      <div style={{display: 'grid', gridTemplateColumns: 'repeat( auto-fit, minmax(250px, 1fr)', justifyContent: 'center', alignItems: 'center', backgroundColor: '#34495E', color: '#FFFFFF', padding: '20px', gap: '15px'}}>
         <Flex justify="top" align="center" flex="auto" vertical={true}>
           <h2>What We Do</h2>
           <p>
@@ -74,7 +74,7 @@ const About = () => {
       <Flex justify="center" align="center" flex="auto" vertical={true} marginTop='0px'>
         <h2>GARD Specialists Company</h2>
         <Divider style={{backgroundColor: 'black', margin: '0px'}}/>
-        <p style={{width: '600px'}}>
+        <p style={{maxWidth: '600px'}}>
           We are the exclusive representative of GARD Specialists Company and the Gardsert Thread Repair System for the Central States Region. 
         </p>
         <img src={GardLogo} alt="GARD Specialists Company"/>
