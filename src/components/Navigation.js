@@ -59,6 +59,22 @@ const items = [
         ),
         key: 'products5',
       },
+      {
+        label: (
+          <a href="https://www.eastpennmanufacturing.com/about/employment/" target="_blank" rel="noopener noreferrer">
+          East Penn Manufacturing
+          </a>
+        ),
+        key: 'products6',
+      },
+      {
+        label: (
+          <a href="https://www.eastpennmanufacturing.com/wire-and-cable-catalog/Deka_2024-25/#Front%20Inside%20Cover" target="_blank" rel="noopener noreferrer">
+          Deka & Marine Master Catalog
+          </a>
+        ),
+        key: 'products7',
+      },
     ],
   },
   {
