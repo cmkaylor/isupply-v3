@@ -12,15 +12,17 @@ const Services = () => {
             <WrapperCard 
             imageComp={GrServices} 
             title={'MRO Supply'}
+            description={'We are here to help you source for all your industrial MRO supplies. Click on Products above to search what we can supply for you!'}
             />
             <WrapperCard 
             imageComp={MdDesignServices} 
             title={'Supply Room Reorganizing / Management'} 
-            description={'Are you planning a new supply room? Or, reorganizing an existing supply room? Do you need help exploring different storage solutions? We can help with this and more.  IInventory counting, storage solutions, labeling, and MDS management. Call to schedule an appointment for a free consultation.'}
+            description={'Are you planning a new supply room? Or, reorganizing an existing supply room? Do you need help exploring different storage solutions? We can help with this and more.  Inventory counting, storage solutions, labeling, and MDS management. Call to schedule an appointment for a free consultation.'}
             />
             <WrapperCard 
             imageComp={MdOutlineInventory} 
             title={'Product Labeling & Inventory Control'} 
+            description={'Effective product labeling and inventory control contribute to streamlined operations, accurate tracking, and overall efficiency in your supply chain management. Contact us for help.'}
             />
             <WrapperCard 
             imageComp={GiAutoRepair} 
