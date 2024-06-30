@@ -17,7 +17,6 @@ function App() {
               <Route path="Services" element={<Services />} />
               <Route path="*" element={<Home />} />
           </Routes>
-          <FooterContent/>
       </Router>
     </>
   );
