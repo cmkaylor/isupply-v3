@@ -61,8 +61,8 @@ const items = [
       },
       {
         label: (
-          <a href="https://www.eastpennmanufacturing.com/about/employment/" target="_blank" rel="noopener noreferrer">
-          East Penn Manufacturing
+          <a href="https://www.brightonbest.com/" target="_blank" rel="noopener noreferrer">
+          Brighton Best
           </a>
         ),
         key: 'products6',
