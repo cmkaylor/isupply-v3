@@ -22,6 +22,7 @@ const WrapperCard = ({ imageComp: ImageComp,
       <Card
         style={{
           width: 200,
+          maxHeight: 200,
           margin: '10px',
           backgroundColor: '#34495E',
           color: 'white'
