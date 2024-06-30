@@ -16,8 +16,8 @@ const Services = () => {
             />
             <WrapperCard 
             imageComp={MdDesignServices} 
-            title={'Supply Room Reorganizing / Management'} 
-            description={'Are you planning a new supply room? Or, reorganizing an existing supply room? Do you need help exploring different storage solutions? We can help with this and more.  Inventory counting, storage solutions, labeling, and MDS management. Call to schedule an appointment for a free consultation.'}
+            title={'Supply Room Management'} 
+            description={'Are you planning a new supply room or reorganizing? Do you need help exploring different storage solutions or the most efficient use of space? We can help with this and more, including: Inventory Counting, Labeling, and SDS Management. Call to schedule an appointment for a free consultation.'}
             />
             <WrapperCard 
             imageComp={MdOutlineInventory} 
