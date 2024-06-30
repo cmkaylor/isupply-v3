@@ -25,7 +25,7 @@ const Home = () => {
           <Row>
             <Col xs={24} xl ={16}>
             <Flex justify="center" align="center" vertical={true} style={{height: '75vh'}}>
-                <Title style={{color: '#34495E'}}>Source, Supply, and Manage.</Title>
+                <Title style={{color: '#34495E', textAlign: 'center', margin: '10px'}}>Source, Supply, and Manage.</Title>
                 <Title level={5} style={{color: '#34495E', textAlign: 'center', margin: '10px'}}>Industrial Supply & Service is your new one stop shop for a variety of industrial solutions and products.</Title>
                 <Flex>
                   <Flex justify="space-evenly" align="center" style={{margin:'8px'}}>
@@ -43,7 +43,7 @@ const Home = () => {
         <Col xs={24} xl={12}/>
       </Row>
       <Flex justify="center" align="center" style={{backgroundColor:'#000000', maxHeight: '80px'}}>
-                <Title level={5} style={{color: '#FFFFFF', fontWeight:'bold'}}>
+                <Title level={5} style={{color: '#FFFFFF', fontWeight:'bold', padding:'5px', textAlign:'center'}}>
                     Click <a href="https://www.lawsonproducts.com/customer/user/login" target='_blank' >here</a> to sign up for Product & Service updates, e-mail news, and specials.
                 </Title>
       </Flex>
