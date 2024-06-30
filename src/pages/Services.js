@@ -27,7 +27,7 @@ const Services = () => {
             <WrapperCard 
             imageComp={GiAutoRepair} 
             title={'Tool Maintenance & Repair'} 
-            description={'Repair and re-sharpening of most cutting tools. Drill bits, annular cutter, mill heads, reamers, step bits, saw blades, and more. HHS and carbide. Call for quotes.'}
+            description={'Repair and re-sharpening of most cutting tools. Drill bits, annular cutter, mill heads, reamers, step bits, saw blades, and more. HSS and carbide. Call for quotes.'}
             />
             <WrapperCard 
             imageComp={FaTruck} 
