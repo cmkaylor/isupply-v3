@@ -12,12 +12,18 @@ code {
     monospace;
 }
 
+/* .services-grid {
+  display: grid;
+  grid-template-columns: 'repeat(auto-fill, 260px)';
+  justify-content: 'center';
+}
+
 @media (min-width: 0px) and (max-width: 480px){
-  footer { 
+  .services-grid { 
       display : none; 
       visibility : hidden; 
   }
-}
+} */
 
 .add-gradient {
   background: linear-gradient(to left, rgba(255,255,255,0) 1%, rgba(255,255,255,1) 35% 100%);

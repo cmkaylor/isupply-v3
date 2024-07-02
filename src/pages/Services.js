@@ -1,3 +1,4 @@
+import { Flex } from 'antd';
 import WrapperCard from '../components/WrapperCard';
 import { MdOutlineInventory, MdDesignServices } from "react-icons/md";
 import { GiAutoRepair } from "react-icons/gi";
@@ -7,8 +8,7 @@ import { GrServices } from "react-icons/gr";
 const Services = () => {
 
     return (
-        <>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, 260px)', justifyContent: 'center', height: '70vh'}}>
+        <Flex align='center' justify='center' vertical={true}>
             <WrapperCard 
             imageComp={GrServices} 
             title={'MRO Supply'}
@@ -34,8 +34,7 @@ const Services = () => {
             title={'Delivery Services'} 
             description={'We provide local delivery services in the greater Kansas City area. Call for more information. '}
             />
-        </div>
-        </>
+        </Flex>
     );
 }
 

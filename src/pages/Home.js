@@ -3,6 +3,7 @@ import { Typography, Flex, Button, Row, Col} from "antd";
 import Screws from '../content/screws.jpg'
 import ContactModal from "../components/ContactModal";
 import { useNavigate } from 'react-router-dom';
+import FooterContent from "../components/FooterContent";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -42,11 +43,6 @@ const Home = () => {
         </Col>
         <Col xs={24} xl={12}/>
       </Row>
-      <Flex justify="center" align="center" style={{backgroundColor:'#000000', maxHeight: '80px'}}>
-                <Title level={5} style={{color: '#FFFFFF', fontWeight:'bold', padding:'5px', textAlign:'center'}}>
-                    Click <a href="https://www.lawsonproducts.com/customer/user/login" target='_blank' rel="noreferrer" >here</a> to sign up for Product & Service updates, e-mail news, and specials.
-                </Title>
-      </Flex>
     </div>
   )
 };
