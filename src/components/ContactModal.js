@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Modal, Flex, Input, Button, Form } from "antd";
+import { Tooltip, Modal, Flex, Input, Button, Form } from "antd";
+import { CheckSquareOutlined, CloseSquareOutlined } from "@ant-design/icons";
 import axios from "axios";
 const { TextArea } = Input;
 
@@ -8,11 +9,13 @@ const FORM_ENDPOINT = "https://public.herotofu.com/v1/b56f3ea0-0b5f-11ef-9273-c7
 const ContactModal = ({ open, handleCancel }) => {
     const [form] = Form.useForm();
     const [showMessage, setShowMessage] = useState(false);
+    const [success, setSuccess] = useState(false);
 
     const onSubmit = async (info) => {
         try {
             const response = await axios.post(FORM_ENDPOINT, info);
             console.log('Success:', response.data);
+            setSuccess(true);
           } catch (error) {
             console.error('Failed:', error);
           }
@@ -98,14 +101,31 @@ const ContactModal = ({ open, handleCancel }) => {
                 offset: 8,
                 span: 16,
             }}
+            style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}
             >
+            <Flex align="center" justify="start" vertical={true} maxWidth="20px">
             {showMessage ?
-            <p>Thank you for submitting your info! A representative will contact as you as soon as we can.</p>
+            <>
+            {success ?
+            <>
+            <Tooltip title="Thank you! A representative will contact you shortly" trigger="click" open>
+              <CheckSquareOutlined style={{color: 'green', fontSize: '30px', marginRight: '5px'}}/>
+            </Tooltip>
+            </>
+              :
+            <>
+            <Tooltip title="Something went wrong..." trigger="click" open>
+              <CloseSquareOutlined style={{color: 'red', fontSize: '30px'}}/>
+            </Tooltip>
+            </>
+            }
+            </>
             :
             <Button type="primary" htmlType="submit">
                 Submit
             </Button>
             }
+            </Flex>
             </Form.Item>
         </Form>
         </Flex>
